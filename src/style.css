@@ -28,6 +28,8 @@
 html,
 body {
  min-height: 100vh;
+ background-color: #ff6600;
+ overscroll-behavior: contain;
 }
 
 a {
