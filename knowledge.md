@@ -24,7 +24,7 @@ radial menu. lets user choose different wheels.
 #### wheel themes
 
 - [ ] roulette (1 to 36)
-- [ ] samsara wheel
+- [x] samsara wheel
 - [ ] zodiac yin/yang
 - [ ] coin flip
 - [ ] tarot

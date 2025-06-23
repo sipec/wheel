@@ -4,7 +4,7 @@
  --white: #ffffff;
  --primary: #fbff85;
  --secondary: #fd6495;
- background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ background: linear-gradient(90deg, #f68e59 0%, #f60 50%, #c20 100%);
  color-scheme: light;
  color: var(--black);
 
