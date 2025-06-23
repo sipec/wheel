@@ -9,7 +9,6 @@ samsara wheel hippie theme, image heavy.
 "SPIN THE WHEEL"
 or
 (result. like YES or NO)
-small text: nevermind
 
 image of wheel
 bottom left corner help button. round. "?"

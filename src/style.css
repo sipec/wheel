@@ -4,7 +4,7 @@
  --white: #ffffff;
  --primary: #fbff85;
  --secondary: #fd6495;
- background-color: #f55438;
+ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
  color-scheme: light;
  color: var(--black);
 
@@ -36,4 +36,52 @@ a {
  &:hover {
   text-decoration: underline;
  }
+}
+
+#spin-text:hover {
+ transform: scale(1.05);
+ text-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+#wheel:active {
+ cursor: grabbing;
+}
+
+#wheel.spinning {
+ cursor: default !important;
+}
+
+button:hover {
+ transform: scale(1.1);
+}
+
+button:active {
+ transform: scale(0.95);
+}
+
+@keyframes spin {
+ from {
+  transform: rotate(0deg);
+ }
+ to {
+  transform: rotate(360deg);
+ }
+}
+
+@keyframes slowSpin {
+ from {
+  transform: rotate(var(--start-rotation, 0deg));
+ }
+ to {
+  transform: rotate(var(--end-rotation, 360deg));
+ }
+}
+
+.wheel-spinning {
+ animation: spin 0.1s linear infinite;
+}
+
+.wheel-slowing {
+ animation: slowSpin var(--slow-duration, 2s)
+  cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
