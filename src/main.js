@@ -5,7 +5,7 @@ const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
 // i believe in the high trust society
-const API_KEY = 'LiNK1ehaCg7VDaRC2EYbv7TOk86PzAxE8JSyGIhD'
+const API_KEY = 'yS5NQuweCO6vskGmrouq624iUowNzpmZ6Z3K22Gy'
 const API_URL = 'https://api.quantumnumbers.anu.edu.au'
 
 let isSpinning = false
